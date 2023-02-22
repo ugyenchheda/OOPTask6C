@@ -17,5 +17,10 @@ namespace OOPTask6C
         public int StudentId { get; set; }
         public string Username { get; set; }
 
+        public override string? ToString()
+        {
+            return String.Format("{0, -5} {1, -25}",
+                StudentId, Username);
+        }
     }
 }

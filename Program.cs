@@ -11,6 +11,7 @@ bool moreUserNames;
 bool continueWorking;
 string received;
 string sName;
+string sAddress;
 string sUserName;
 int sIdNumber;
 do
@@ -24,9 +25,17 @@ do
             Console.WriteLine("You chose to enter student information");
             Console.Write("Enter student name: ");
             sName = Console.ReadLine();
-
+            Console.WriteLine("If the student's address " +
+                "is not yet known, press ENTER");
+            Console.Write("Enter student address: ");
+            sAddress = Console.ReadLine();
+            if(String.IsNullOrEmpty(sAddress))
+                sAddress = null;       
+            
+            
             //Create a Student object
-            student = new Student(Student.ProvideUniqueIdNumber(), sName);
+            student = new Student(Student.ProvideUniqueIdNumber(), 
+                sName, sAddress);
             //Add to your collection:
             students.Add(student);
 
@@ -37,14 +46,7 @@ do
             else
                 moreStudents = false;
 
-        } while (moreStudents);
-
-        //Situation at the end:
-        //foreach (var item in students)
-        //{
-        //    Console.WriteLine("Id: " + item.Id + ", student name: " +
-        //        item.StudentName);
-        //}
+        } while (moreStudents);        
     }
     else if (received.StartsWith("U"))
     {
@@ -112,3 +114,21 @@ do
 
 
 } while (continueWorking);
+
+Console.WriteLine("Student collection:");
+foreach (var item in students)
+{
+    //Console.WriteLine("Id: " + item.Id + ", student name: " +
+    //    item.StudentName);
+    Console.WriteLine(item);
+}
+
+Console.WriteLine("UserName collection:");
+foreach (var item in userNames)
+{
+    //Console.WriteLine("Student Id: {0}, username: {1}",
+    //    item.Value.StudentId, item.Value.Username);
+    Console.WriteLine(item);
+}
+
+
