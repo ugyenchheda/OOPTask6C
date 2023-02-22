@@ -1,0 +1,30 @@
+C:\Users\mynttiti\source\repos\OOPTask6C\bin\Debug\net6.0\OOPTask6C.exe
+C:\Users\mynttiti\source\repos\OOPTask6C\bin\Debug\net6.0\OOPTask6C.deps.json
+C:\Users\mynttiti\source\repos\OOPTask6C\bin\Debug\net6.0\OOPTask6C.runtimeconfig.json
+C:\Users\mynttiti\source\repos\OOPTask6C\bin\Debug\net6.0\OOPTask6C.dll
+C:\Users\mynttiti\source\repos\OOPTask6C\bin\Debug\net6.0\OOPTask6C.pdb
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.csproj.AssemblyReference.cache
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.AssemblyInfoInputs.cache
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.AssemblyInfo.cs
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.csproj.CoreCompileInputs.cache
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.dll
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\refint\OOPTask6C.dll
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.pdb
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\OOPTask6C.genruntimeconfig.cache
+C:\Users\mynttiti\source\repos\OOPTask6C\obj\Debug\net6.0\ref\OOPTask6C.dll
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\bin\Debug\net6.0\OOPTask6C.exe
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\bin\Debug\net6.0\OOPTask6C.deps.json
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\bin\Debug\net6.0\OOPTask6C.runtimeconfig.json
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\bin\Debug\net6.0\OOPTask6C.dll
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\bin\Debug\net6.0\OOPTask6C.pdb
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.csproj.AssemblyReference.cache
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.AssemblyInfoInputs.cache
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.AssemblyInfo.cs
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.csproj.CoreCompileInputs.cache
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.dll
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\refint\OOPTask6C.dll
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.pdb
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\OOPTask6C.genruntimeconfig.cache
+C:\Users\lenevo\Desktop\college files\oop\OOPTask6C\OOPTask6C\obj\Debug\net6.0\ref\OOPTask6C.dll
