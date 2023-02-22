@@ -18,12 +18,6 @@ namespace OOPTask6C
             Address = address;
         }
 
-        //public Student(int id, string studentName)
-        //{
-        //    Id = id;
-        //    StudentName = studentName;
-        //}
-
         public int Id { get; set; }
         public string StudentName { get; set; }
         public string Address { get; set; }
