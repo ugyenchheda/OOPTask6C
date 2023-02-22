@@ -53,37 +53,45 @@ do
         Console.WriteLine("You chose to enter user data.");
         do
         {
-            Console.Write("Enter student id number: ");
-            received = Console.ReadLine();
-            while (!Int32.TryParse(received, out sIdNumber) || sIdNumber<1)
-            {
-                Console.Write("Not accepted, try again: ");
-                received = Console.ReadLine();
-            }
-            //Any students found?
-           
+            Console.Write("Enter student name: ");
+            sName = Console.ReadLine();
+            
+            //Any students found?           
             var found=from item in students
-                      where item.Id == sIdNumber
+                      where item.StudentName.Contains(sName)
                       select item;
+
+            int numberOfStudents=students.Count();
+
             if (found.Any())
             {
-                Console.Write("Enter username: ");
-                sUserName = Console.ReadLine();
-                //All the info now available:
-                userName=new UserName(sIdNumber, sUserName);
-
-                //NOW comes the exciting MOMENT OF TRUTH:
-                //CAN the information be saved?????
-                try
+                for (int i = 0; i < numberOfStudents; i++)
                 {
-                    userNames.Add(sIdNumber, userName);
-                }
-                catch (Exception ex)
-                {
+                    if(students[i].StudentName.Contains(sName))
+                    {
+                        Console.WriteLine("There is student {0}.", students[i].StudentName);
+                        Console.Write("Would you like to enter user data to " +
+                            "the above student (Y/N)?: ");
+                        received = Console.ReadLine().ToUpper();
+                        if(received.StartsWith("Y"))
+                        {
+                            Console.Write("Enter username: ");
+                            sUserName = Console.ReadLine();
+                            userName=new UserName(students[i].Id, sUserName);
 
-                    Console.WriteLine("Did not work and here is why:");
-                    Console.WriteLine(ex.Message);
-                }
+                            //CAN the information be saved?????
+                            try
+                            {
+                                userNames.Add(students[i].Id, userName);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Did not work and here is why:");
+                                Console.WriteLine(ex.Message);
+                            }
+                        }
+                    }
+                }              
             }
             else
             {
